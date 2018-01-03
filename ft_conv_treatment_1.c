@@ -6,7 +6,7 @@
 /*   By: nvergnac <nvergnac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/01/03 14:22:00 by nvergnac          #+#    #+#             */
-/*   Updated: 2018/01/03 19:27:06 by pclement         ###   ########.fr       */
+/*   Updated: 2018/01/03 20:32:19 by nvergnac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -102,6 +102,8 @@ void	ft_conv_treatment(t_lst *first)
 			}
 			str = ft_safe_free(str);
 		}
+		if (first->ret < 0)
+			break ;
 		first = first->next;
 	}
 }
