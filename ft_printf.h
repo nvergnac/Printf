@@ -6,7 +6,7 @@
 /*   By: pclement <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/12/07 13:09:23 by pclement          #+#    #+#             */
-/*   Updated: 2018/01/03 19:27:00 by pclement         ###   ########.fr       */
+/*   Updated: 2018/01/04 14:56:08 by nvergnac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,6 @@
 # include <unistd.h>
 # include <stdlib.h>
 # include <wchar.h>
-# include <locale.h>
-# include <stdio.h>
 # include "libft/libft.h"
 # define FRB first->read_bytes
 

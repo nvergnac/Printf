@@ -6,12 +6,11 @@
 /*   By: pclement <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/12/18 17:30:41 by pclement          #+#    #+#             */
-/*   Updated: 2018/01/03 14:59:58 by nvergnac         ###   ########.fr       */
+/*   Updated: 2018/01/04 14:58:05 by nvergnac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-#include <stdlib.h>
 
 int			ft_neg(intmax_t value, int base_size)
 {
